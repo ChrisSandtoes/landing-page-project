@@ -8,10 +8,28 @@ body {
 }
 
 img {
-    height: 150px;
-    width: 300px;
+    height: 200px;
+    width: 500px;
 }
 
+span {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px; 
+    font-weight: 700;
+    font-size: 18px;  
+}
+
+#container-in-container {
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 5px;
+}
 .first-class {
     align-items: center;
     display: flex;
@@ -22,17 +40,76 @@ img {
 .first {
     background-color: #1f2937;
     color: white;
-    flex: 1 1 150px;
+    flex: 1 1 450px;
+    
 }
 
 .second {
-    flex: 1 1 150px;
+    flex: 1 1 450px;
 }
 
 .third {
-    flex: 1 1 150px;
+    flex: 1 1 450px;
+    background-color: #e5e7eb;
 }
 
 .fourth {
-    flex: 1 1 150px;
+    flex: 1 1 450px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#top-links {
+    display: flex; 
+    gap: 20px;
+
+}
+
+#left-marg {
+    margin-left: 40px;
+}
+
+.center-bold {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.foods {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 15px;
+}
+
+.cards {
+    display: flex;
+    height: auto;
+    width: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pepe {
+    width: 200px;
 }
