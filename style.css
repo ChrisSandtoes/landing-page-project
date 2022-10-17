@@ -51,6 +51,7 @@ span {
 .third {
     flex: 1 1 450px;
     background-color: #e5e7eb;
+    
 }
 
 .fourth {
@@ -112,4 +113,48 @@ a {
 
 .pepe {
     width: 200px;
+}
+
+.soulja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0 150px; 
+    flex-wrap: wrap;
+    font-size: 36px;
+    margin-top: 60px;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+#owen {
+    margin: -300px 0 0 900px;
+    font-weight: 400;
+
+}
+
+.french-drop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    gap: 200px;
+    margin: 12px 200px;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+.resize {
+    max-width: 700px;
+}
+
+footer {
+    background-color: #1f2937; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 24px 0;
+    height: 100px;
+    align-items: center;
 }
